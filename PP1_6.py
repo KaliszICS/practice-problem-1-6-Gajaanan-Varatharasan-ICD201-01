@@ -18,7 +18,7 @@ def q2():
   num1 = int(input("Input a number: "))
   num2 = int(input("Input a number: "))
   
-  print(num1/num2))
+  print(int(num1/num2))
 
 # Output the phrase "hello Mr. Kalisz have you seen my work yet?"
 
