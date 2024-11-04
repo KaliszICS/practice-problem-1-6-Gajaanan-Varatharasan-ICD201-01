@@ -29,10 +29,10 @@ def q3():
 # Output their result multiplied together.  Then round down to the nearest whole number
 
 def q4():
-  num1 = eval(input("Input a number: "))
-  num2 = eval(input("Input a number: "))
+  num1 = float(input("Input a number: "))
+  num2 = float(input("Input a number: "))
   
-  print(round(num1*num2))
+  print(int(num1*num2))
 
 #q1()
 #q2()
