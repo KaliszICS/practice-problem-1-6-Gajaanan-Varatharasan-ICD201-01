@@ -7,16 +7,16 @@
 
 # From input, recieve two integers from the user and add them together.  Output the result.
 def q1():
-  num1 = eval(input("Input a number: "))
-  num2 = eval(input("Input a number: "))
+  num1 = int(input("Input a number: "))
+  num2 = int(input("Input a number: "))
   
   print(num1+num2)
 
 # From input recieve two integers.  Output the quotient rounded down.
 
 def q2():
-  num1 = eval(input("Input a number: "))
-  num2 = eval(input("Input a number: "))
+  num1 = int(input("Input a number: "))
+  num2 = int(input("Input a number: "))
   
   print(round(num1/num2))
 
